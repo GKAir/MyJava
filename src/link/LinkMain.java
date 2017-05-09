@@ -17,6 +17,7 @@ public class LinkMain {
 
 
 
+
         link.addFirst(next1);
 
         System.out.println(link.data);
