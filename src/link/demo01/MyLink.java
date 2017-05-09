@@ -1,18 +1,17 @@
 package link.demo01;
 
-import java.util.Queue;
-
 /**
  * Author:  Air
  * Date  :  2017/5/9.
  */
 public class MyLink<T> {
-    Queue
     public int data;
     public MyLink next;
     public MyLink previous;
 
     public MyLink() {
+        System.out.println(this);
+
 
     }
 
