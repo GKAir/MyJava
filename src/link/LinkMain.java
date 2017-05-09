@@ -12,6 +12,11 @@ public class LinkMain {
 
         MyLink next1 = new MyLink(777);
 
+
+        System.out.println(666);
+
+
+
         link.addFirst(next1);
 
         System.out.println(link.data);
