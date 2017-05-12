@@ -15,9 +15,6 @@ public class LinkMain {
 
         System.out.println(666);
 
-
-
-
         link.addFirst(next1);
 
         System.out.println(link.data);

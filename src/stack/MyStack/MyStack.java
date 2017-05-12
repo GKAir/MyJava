@@ -2,6 +2,7 @@ package stack.MyStack;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.function.Consumer;
 
 /**
@@ -9,10 +10,19 @@ import java.util.function.Consumer;
  * Date  :  2017/5/4.
  */
 public class MyStack<E> implements Iterable {
-    private ArrayList<E> list;
+    private LinkedList<E> list;
+    private int state ;
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     public MyStack() {
-        this.list = new ArrayList<E>();
+        this.list = new LinkedList<>();
     }
 
     public int size() {
