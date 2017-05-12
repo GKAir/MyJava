@@ -12,6 +12,8 @@ import java.util.function.Consumer;
 public class MyStack<E> implements Iterable {
     private LinkedList<E> list;
     private int state ;
+    public MyStack right;
+    public MyStack left;
 
     public int getState() {
         return state;
