@@ -1,6 +1,5 @@
 package stack.MyStack;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.function.Consumer;
@@ -8,6 +7,10 @@ import java.util.function.Consumer;
 /**
  * Author:  Air
  * Date  :  2017/5/4.
+ */
+
+/*
+    自定义二叉树节点
  */
 public class MyStack<E> implements Iterable {
     private LinkedList<E> list;
